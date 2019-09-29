@@ -1,0 +1,120 @@
+body{
+    background-color: #FFCC00;
+    padding:20px;
+    margin:0;
+}
+
+/* 
+
+body{
+    background-color: #FFCC00;
+    padding: 20px;
+    margin: 0;
+}
+
+*/
+
+h1, h2, p, ul, li{
+    font-family:sans-serif;
+}
+
+/* 
+
+Ctrl + /를 누른다. 한영으로 문자 변환
+h1, h2, p, ul, li {
+    font-family: sans-serif;
+}
+
+*/
+ul.header li{
+    display: inline;
+    list-style-type:none;
+    margin: 0;
+}
+
+/* 
+ul.header li{
+    display: inline;
+    list-style-type: none;
+    margin: 0;
+*/
+
+ul.header{
+    background-color: #111;
+    padding: 0;
+}
+
+/* 
+
+    color를 입력할 때 # Yellow보다 숫자를 입력해서 입력해준다.
+ul.header{
+    background-color: #111;
+    padding: 0;
+}
+
+*/
+
+ul.header li a{
+    color: #FFF;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 20px;
+    display: inline-block;
+}
+
+/* 
+ul.header li a {
+    color: #FFF;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 20px;
+    display: inline-block;
+}
+
+*/
+
+.content{
+    background-color: #FFF;
+    padding: 20px;
+}
+
+/* 
+.content {
+    background-color: #FFF;
+    padding: 20px;
+}
+*/
+
+.content h2{
+    padding: 0;
+    margin: 0;
+}
+
+/* 
+.content h2 {
+    padding: 0;
+    margin: 0;
+}
+
+*/
+
+.content li{
+    margin-bottom : 10px;
+}
+/* 
+.content li {
+    margin-bottom : 10px;
+}
+
+*/
+
+a:hover {
+    background-color: #0099FF;
+}
+
+/* 
+a:hover {
+    backgroun-color: #0099FF;
+}
+
+*/
